@@ -10,7 +10,6 @@
         <fieldset>
             <fieldset> <button type="submit" name="cyklus_while">Spustit WHILE cyklus</button> </fieldset>
             <fieldset><button type="submit" name="cyklus_do_while">Spustit DO-WHILE cyklus</button></fieldset>
-            <fieldset><button type="submit" name="cyklus_for">Spustit FOR cyklus</button></fieldset>
         </fieldset>
     </form>
     <hr>
@@ -52,22 +51,6 @@
         echo "<br>Počet kladných čísel: " . $kladny . "<br>";
         echo "Počet záporných čísel: " . $zaporny . "<br>";
     }
-
-    if (isset($_POST['cyklus_FOR'])) {
-        echo "<h2>Výsledek FOR cyklu:</h2>";
         
-        $pocet = 10;
-        $pole = [];
-        $soucet = 0;
-        $prumer = 0;
-        
-        
-        
-        
-
-
-        echo "<h2>Součet čísel v poli:</h2>";
-        echo "<h2>Průměr čísel v poli:</h2>";
-    }
     ?>
 
